@@ -1,14 +1,25 @@
-import Description from './components/Description/Description'
-import Feedback from './components/Feedback/Feedback'
+
+import { GiCoffeeBeans } from "react-icons/gi";
 import Options from './components/Options/Options'
 import './App.css'
 
 const App = () => {
-  return (
+
+      return (
     <>
-      <Description />
-      <Feedback />
-      <Options />
+           <div>
+            <h1 > <GiCoffeeBeans/> Sip Happens Café
+          </h1>
+          <p >Please leave your feedback about our service by selecting one of the options below.
+</p>
+          
+      </div>
+      
+    
+  
+     <Options />
+   
+      
     </>
   );
 };

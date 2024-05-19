@@ -36,4 +36,10 @@ button {
   font-size: 20px;
   font-weight: 600;
   color: #4c4444;
+  cursor: pointer;
+}
+button:hover,
+button:focus {
+  color: #e9e5e5;
+  background-color: #9a9696;
 }
